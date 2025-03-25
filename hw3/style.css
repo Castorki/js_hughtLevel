@@ -39,7 +39,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  height: 50dvh;
   gap: 15px;
 }
 .sendRewie__form_ProductTitle {
@@ -54,4 +54,18 @@ a {
   padding: 10px 12px;
   background-color: coral;
   border: 2px solid rgb(255, 47, 0);
+}
+
+.list__container, .product__rewies_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50dvh;
+  gap: 15px;
+}
+
+.products__list {
+  list-style-position: inside;
 }/*# sourceMappingURL=style.css.map */
